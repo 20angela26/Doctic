@@ -51,7 +51,6 @@ public class ComentarioServiceImp implements IComentarioService {
             ComentarioModel comentario = comentarioEncontrado.get();
             comentario.setFechaComentario(comentarioNuevo.getFechaComentario());
             comentario.setTextoComentario(comentarioNuevo.getTextoComentario());
-            comentario.setComentario_IdComentario(comentarioNuevo.getComentario_IdComentario());
             comentario.setUsuarioId(comentarioNuevo.getUsuarioId());
             comentario.setDocumentoId(comentarioNuevo.getDocumentoId());
 
